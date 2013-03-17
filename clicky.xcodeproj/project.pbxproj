@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCCC126316F61223009A75D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCC126216F61223009A75D1 /* UIKit.framework */; };
+		CCCC126516F61223009A75D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCC126416F61223009A75D1 /* Foundation.framework */; };
+		CCCC126716F61223009A75D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCC126616F61223009A75D1 /* CoreGraphics.framework */; };
+		CCCC126D16F61223009A75D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCCC126B16F61223009A75D1 /* InfoPlist.strings */; };
+		CCCC126F16F61223009A75D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC126E16F61223009A75D1 /* main.m */; };
+		CCCC127316F61223009A75D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC127216F61223009A75D1 /* AppDelegate.m */; };
+		CCCC127516F61223009A75D1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCCC127416F61223009A75D1 /* Default.png */; };
+		CCCC127716F61223009A75D1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCCC127616F61223009A75D1 /* Default@2x.png */; };
+		CCCC127916F61223009A75D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCCC127816F61223009A75D1 /* Default-568h@2x.png */; };
+		CCCC127C16F61223009A75D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC127B16F61223009A75D1 /* ViewController.m */; };
+		CCCC127F16F61223009A75D1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCCC127D16F61223009A75D1 /* ViewController.xib */; };
+		CCCC128D16F6177F009A75D1 /* NerdKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC128B16F6177F009A75D1 /* NerdKeyboard.m */; };
+		CCCC128E16F6177F009A75D1 /* NerdKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCCC128C16F6177F009A75D1 /* NerdKeyboard.xib */; };
+		CCCC129116F6183B009A75D1 /* NerdKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC129016F6183B009A75D1 /* NerdKeyboardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCCC125F16F61223009A75D1 /* clicky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clicky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCC126216F61223009A75D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCCC126416F61223009A75D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCCC126616F61223009A75D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCCC126A16F61223009A75D1 /* clicky-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "clicky-Info.plist"; sourceTree = "<group>"; };
+		CCCC126C16F61223009A75D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCCC126E16F61223009A75D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCCC127016F61223009A75D1 /* clicky-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "clicky-Prefix.pch"; sourceTree = "<group>"; };
+		CCCC127116F61223009A75D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCCC127216F61223009A75D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCCC127416F61223009A75D1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CCCC127616F61223009A75D1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CCCC127816F61223009A75D1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CCCC127A16F61223009A75D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCCC127B16F61223009A75D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCCC127E16F61223009A75D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CCCC128A16F6177F009A75D1 /* NerdKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NerdKeyboard.h; sourceTree = "<group>"; };
+		CCCC128B16F6177F009A75D1 /* NerdKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NerdKeyboard.m; sourceTree = "<group>"; };
+		CCCC128C16F6177F009A75D1 /* NerdKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NerdKeyboard.xib; sourceTree = "<group>"; };
+		CCCC128F16F6183B009A75D1 /* NerdKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NerdKeyboardView.h; sourceTree = "<group>"; };
+		CCCC129016F6183B009A75D1 /* NerdKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NerdKeyboardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCCC125C16F61223009A75D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCC126316F61223009A75D1 /* UIKit.framework in Frameworks */,
+				CCCC126516F61223009A75D1 /* Foundation.framework in Frameworks */,
+				CCCC126716F61223009A75D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCCC125616F61223009A75D1 = {
+			isa = PBXGroup;
+			children = (
+				CCCC126816F61223009A75D1 /* clicky */,
+				CCCC126116F61223009A75D1 /* Frameworks */,
+				CCCC126016F61223009A75D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCCC126016F61223009A75D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCCC125F16F61223009A75D1 /* clicky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCCC126116F61223009A75D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCCC126216F61223009A75D1 /* UIKit.framework */,
+				CCCC126416F61223009A75D1 /* Foundation.framework */,
+				CCCC126616F61223009A75D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCCC126816F61223009A75D1 /* clicky */ = {
+			isa = PBXGroup;
+			children = (
+				CCCC127116F61223009A75D1 /* AppDelegate.h */,
+				CCCC127216F61223009A75D1 /* AppDelegate.m */,
+				CCCC128A16F6177F009A75D1 /* NerdKeyboard.h */,
+				CCCC128B16F6177F009A75D1 /* NerdKeyboard.m */,
+				CCCC128C16F6177F009A75D1 /* NerdKeyboard.xib */,
+				CCCC128F16F6183B009A75D1 /* NerdKeyboardView.h */,
+				CCCC129016F6183B009A75D1 /* NerdKeyboardView.m */,
+				CCCC127A16F61223009A75D1 /* ViewController.h */,
+				CCCC127B16F61223009A75D1 /* ViewController.m */,
+				CCCC127D16F61223009A75D1 /* ViewController.xib */,
+				CCCC126916F61223009A75D1 /* Supporting Files */,
+			);
+			path = clicky;
+			sourceTree = "<group>";
+		};
+		CCCC126916F61223009A75D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCC126A16F61223009A75D1 /* clicky-Info.plist */,
+				CCCC126B16F61223009A75D1 /* InfoPlist.strings */,
+				CCCC126E16F61223009A75D1 /* main.m */,
+				CCCC127016F61223009A75D1 /* clicky-Prefix.pch */,
+				CCCC127416F61223009A75D1 /* Default.png */,
+				CCCC127616F61223009A75D1 /* Default@2x.png */,
+				CCCC127816F61223009A75D1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCCC125E16F61223009A75D1 /* clicky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCC128216F61223009A75D1 /* Build configuration list for PBXNativeTarget "clicky" */;
+			buildPhases = (
+				CCCC125B16F61223009A75D1 /* Sources */,
+				CCCC125C16F61223009A75D1 /* Frameworks */,
+				CCCC125D16F61223009A75D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clicky;
+			productName = clicky;
+			productReference = CCCC125F16F61223009A75D1 /* clicky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCCC125716F61223009A75D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Silent Silicon";
+			};
+			buildConfigurationList = CCCC125A16F61223009A75D1 /* Build configuration list for PBXProject "clicky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCCC125616F61223009A75D1;
+			productRefGroup = CCCC126016F61223009A75D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCCC125E16F61223009A75D1 /* clicky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCCC125D16F61223009A75D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCC126D16F61223009A75D1 /* InfoPlist.strings in Resources */,
+				CCCC127516F61223009A75D1 /* Default.png in Resources */,
+				CCCC127716F61223009A75D1 /* Default@2x.png in Resources */,
+				CCCC127916F61223009A75D1 /* Default-568h@2x.png in Resources */,
+				CCCC127F16F61223009A75D1 /* ViewController.xib in Resources */,
+				CCCC128E16F6177F009A75D1 /* NerdKeyboard.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCCC125B16F61223009A75D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCC126F16F61223009A75D1 /* main.m in Sources */,
+				CCCC127316F61223009A75D1 /* AppDelegate.m in Sources */,
+				CCCC127C16F61223009A75D1 /* ViewController.m in Sources */,
+				CCCC128D16F6177F009A75D1 /* NerdKeyboard.m in Sources */,
+				CCCC129116F6183B009A75D1 /* NerdKeyboardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCCC126B16F61223009A75D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCC126C16F61223009A75D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCCC127D16F61223009A75D1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCC127E16F61223009A75D1 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCCC128016F61223009A75D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCCC128116F61223009A75D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCCC128316F61223009A75D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "clicky/clicky-Prefix.pch";
+				INFOPLIST_FILE = "clicky/clicky-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCCC128416F61223009A75D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "clicky/clicky-Prefix.pch";
+				INFOPLIST_FILE = "clicky/clicky-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCCC125A16F61223009A75D1 /* Build configuration list for PBXProject "clicky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCC128016F61223009A75D1 /* Debug */,
+				CCCC128116F61223009A75D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCCC128216F61223009A75D1 /* Build configuration list for PBXNativeTarget "clicky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCC128316F61223009A75D1 /* Debug */,
+				CCCC128416F61223009A75D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCCC125716F61223009A75D1 /* Project object */;
+}
